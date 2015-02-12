@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		0A1DF70B1A88B11C00E662E9 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DF70A1A88B11C00E662E9 /* CityModel.swift */; };
 		0A1DF70D1A88D61200E662E9 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DF70C1A88D61200E662E9 /* CityDetailViewController.swift */; };
+		0A1DF70F1A88D94A00E662E9 /* CityDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DF70E1A88D94A00E662E9 /* CityDetailCell.swift */; };
 		0A3FC2061A88542B007DE891 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3FC2051A88542B007DE891 /* SwiftyJSON.swift */; };
+		0A8A8CA11A8B45ED00537C46 /* NewCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A8CA01A8B45ED00537C46 /* NewCityViewController.swift */; };
+		0A8A8CA51A8B4F0500537C46 /* ListCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A8CA41A8B4F0500537C46 /* ListCity.swift */; };
 		0A9724051A86611A00AD565C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9724041A86611A00AD565C /* AppDelegate.swift */; };
 		0A9724071A86611A00AD565C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9724061A86611A00AD565C /* ViewController.swift */; };
 		0A97240A1A86611A00AD565C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9724081A86611A00AD565C /* Main.storyboard */; };
@@ -32,6 +35,7 @@
 		0A9724881A87C9F600AD565C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9724871A87C9F600AD565C /* UIKit.framework */; };
 		0A97248A1A87CA0400AD565C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9724891A87CA0400AD565C /* Foundation.framework */; };
 		0A97248C1A87CA0D00AD565C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A97248B1A87CA0D00AD565C /* CoreGraphics.framework */; };
+		0AB25D471A8B5C1F00159CCB /* ErrorMessageShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB25D461A8B5C1F00159CCB /* ErrorMessageShow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +51,10 @@
 /* Begin PBXFileReference section */
 		0A1DF70A1A88B11C00E662E9 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		0A1DF70C1A88D61200E662E9 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		0A1DF70E1A88D94A00E662E9 /* CityDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailCell.swift; sourceTree = "<group>"; };
 		0A3FC2051A88542B007DE891 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		0A8A8CA01A8B45ED00537C46 /* NewCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCityViewController.swift; sourceTree = "<group>"; };
+		0A8A8CA41A8B4F0500537C46 /* ListCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCity.swift; sourceTree = "<group>"; };
 		0A9723FF1A86611A00AD565C /* SwiftWebApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWebApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9724031A86611A00AD565C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A9724041A86611A00AD565C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +92,7 @@
 		0A9724871A87C9F600AD565C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0A9724891A87CA0400AD565C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0A97248B1A87CA0D00AD565C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AB25D461A8B5C1F00159CCB /* ErrorMessageShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessageShow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,15 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
+		0A8A8CA31A8B4ED400537C46 /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				0A8A8CA41A8B4F0500537C46 /* ListCity.swift */,
+				0AB25D461A8B5C1F00159CCB /* ErrorMessageShow.swift */,
+			);
+			name = Rule;
+			sourceTree = "<group>";
+		};
 		0A9723F61A86611A00AD565C = {
 			isa = PBXGroup;
 			children = (
@@ -158,9 +175,10 @@
 			children = (
 				0A465A3A1A88895500440F56 /* Resource */,
 				0A97247E1A87C81000AD565C /* Frameworks */,
+				0A9724081A86611A00AD565C /* Main.storyboard */,
+				0A9724041A86611A00AD565C /* AppDelegate.swift */,
 				0A97247B1A87C7D500AD565C /* Class */,
 				0A97247A1A87C77C00AD565C /* Vendor */,
-				0A9724081A86611A00AD565C /* Main.storyboard */,
 				0A9724021A86611A00AD565C /* Supporting Files */,
 				0A9724411A86621200AD565C /* SwiftWebApi-Bridging-Header.h */,
 			);
@@ -170,7 +188,6 @@
 		0A9724021A86611A00AD565C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0A9724041A86611A00AD565C /* AppDelegate.swift */,
 				0A97240B1A86611A00AD565C /* Images.xcassets */,
 				0A97240D1A86611A00AD565C /* LaunchScreen.xib */,
 				0A9724031A86611A00AD565C /* Info.plist */,
@@ -233,6 +250,7 @@
 		0A97247B1A87C7D500AD565C /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				0A8A8CA31A8B4ED400537C46 /* Rule */,
 				0A1DF7091A88B0C000E662E9 /* Model */,
 				0A97247D1A87C7F900AD565C /* View */,
 				0A97247C1A87C7E800AD565C /* Controller */,
@@ -245,6 +263,7 @@
 			children = (
 				0A9724061A86611A00AD565C /* ViewController.swift */,
 				0A1DF70C1A88D61200E662E9 /* CityDetailViewController.swift */,
+				0A8A8CA01A8B45ED00537C46 /* NewCityViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -252,6 +271,7 @@
 		0A97247D1A87C7F900AD565C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0A1DF70E1A88D94A00E662E9 /* CityDetailCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -373,15 +393,19 @@
 				0A97243E1A86614200AD565C /* AFURLRequestSerialization.m in Sources */,
 				0A97243D1A86614200AD565C /* AFURLConnectionOperation.m in Sources */,
 				0A97243C1A86614200AD565C /* AFSecurityPolicy.m in Sources */,
+				0A8A8CA51A8B4F0500537C46 /* ListCity.swift in Sources */,
 				0A3FC2061A88542B007DE891 /* SwiftyJSON.swift in Sources */,
 				0A1DF70B1A88B11C00E662E9 /* CityModel.swift in Sources */,
 				0A9724381A86614200AD565C /* AFHTTPRequestOperation.m in Sources */,
 				0A9724401A86614200AD565C /* AFURLSessionManager.m in Sources */,
 				0A97243F1A86614200AD565C /* AFURLResponseSerialization.m in Sources */,
+				0A8A8CA11A8B45ED00537C46 /* NewCityViewController.swift in Sources */,
 				0A9724071A86611A00AD565C /* ViewController.swift in Sources */,
 				0A97243A1A86614200AD565C /* AFHTTPSessionManager.m in Sources */,
 				0A1DF70D1A88D61200E662E9 /* CityDetailViewController.swift in Sources */,
+				0AB25D471A8B5C1F00159CCB /* ErrorMessageShow.swift in Sources */,
 				0A9724391A86614200AD565C /* AFHTTPRequestOperationManager.m in Sources */,
+				0A1DF70F1A88D94A00E662E9 /* CityDetailCell.swift in Sources */,
 				0A97243B1A86614200AD565C /* AFNetworkReachabilityManager.m in Sources */,
 				0A9724051A86611A00AD565C /* AppDelegate.swift in Sources */,
 			);

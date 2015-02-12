@@ -12,10 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    let listCity = ListCity()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let navigationController = window?.rootViewController as UINavigationController
+        let viewController = navigationController.topViewController as ViewController
+        viewController.listCity = listCity
         return true
     }
 
